@@ -1,0 +1,32 @@
+#### Get All Transactions By Day
+GET http://localhost:8080/v1/api/transactions?date=2023-05-21
+
+<> 2023-05-20T204519.200.json
+
+
+#### Get Single Transaction
+GET http://localhost:8080/v1/api/transactions/c708df9e-7d6e-421c-932d-a75d4cfb1660
+
+### Create Transaction
+POST http://localhost:8080/v1/api/transactions
+Content-Type: application/json
+
+{
+  "value": 11111,
+  "type": "credit",
+  "category": "FINANCING"
+}
+
+### Update Transaction
+PUT http://localhost:8080/v1/api/transactions/c708df9e-7d6e-421c-932d-a75d4cfb1660
+Content-Type: application/json
+
+{
+  "value": 11001,
+  "type": "debit",
+  "category": "financing"
+}
+
+### Delete Transaction
+DELETE http://localhost:8080/v1/api/transactions/2f2d2ef7-8819-43d6-a1d9-1160e206e176
+Content-Type: application/json
