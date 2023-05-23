@@ -1,0 +1,487 @@
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-24"
+}
+
+<> 2023-05-23T022719.200.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-24"
+}
+
+<> 2023-05-23T022717.200.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T022614.200.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T022613.200.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T022610.200.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T022546.200.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T021507.200.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T021437.200.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T021415.200.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T021351.200.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T015312.200.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-23"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T013637.500.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T013406.500.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T013334.500.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T013258.500.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T012706.500.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T011906.500.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T011451.500.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 56
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "executeTask": true,
+  "report_date": "2023-05-22"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 56
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "executeTask": true,
+  "report_date": "2023-05-22"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-22"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 104
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute": true,
+  "should_execute":  true,
+  "shouldExecute": true,
+  "report_date": "2023-05-22"
+}
+
+<> 2023-05-23T005421.500.json
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "shouldExecute": true,
+  "report_date": "2023-05-22"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "should_execute": true,
+  "report_date": "2023-05-22"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "should_execute": true,
+  "report_date": "2023-05-22"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "shouldExecute": true,
+  "report_date": "2023-05-22"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 52
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute": true,
+  "report_date": "2023-05-22"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 51
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute": true,
+  "reportDate": "2023-05-22"
+}
+
+###
+
+POST http://localhost:8084/v1/api/transactions/generate
+Content-Type: application/json
+Content-Length: 21
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "execute": true
+}
+
+###
+
