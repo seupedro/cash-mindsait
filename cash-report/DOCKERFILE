@@ -1,0 +1,8 @@
+# Use official base image of Java Runtim
+FROM eclipse-temurin:17-jdk
+
+RUN mkdir /opt/app
+
+COPY build/libs/cash-report-0.0.1-SNAPSHOT.jar /opt/app/app.jar
+
+ENTRYPOINT ["java", "-Dspring.profiles.active=prod", "-jar", "/opt/app/app.jar"]

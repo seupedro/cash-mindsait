@@ -1,0 +1,43 @@
+### Generate Report
+# @no-cookie-jar
+POST http://localhost:8084/v1/api/transactions/generate
+Host: localhost:8084
+Connection: keep-alive
+Authorization: Basic c3VwZXJ1c2VyOnN1cGVycGFzcw==
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Accept: application/json,*/*
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua-platform: "macOS"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8084/swagger-ui/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9
+Cookie: JSESSIONID=7D0937481631E4F93D6C9516B61174D2
+Content-Type: application/json
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-24"
+}
+
+
+
+### Get Report
+
+GET http://localhost:8084/v1/api/cashreport?start_date=2023-05-24
+Authorization: Basic c3VwZXJ1c2VyOnN1cGVycGFzcw==
+
+
+### Gen Report
+
+POST http://localhost:8084/v1/api/cashreport/generate
+Authorization: Basic c3VwZXJ1c2VyOnN1cGVycGFzcw==
+Content-Type: application/json
+
+{
+  "execute_task": true,
+  "report_date": "2023-05-24"
+}

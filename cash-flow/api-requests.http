@@ -1,5 +1,6 @@
 #### Get All Transactions By Day
-GET http://localhost:8080/v1/api/transactions?date=2023-05-21
+GET http://localhost:8082/v1/api/transactions?date=2023-05-24
+Authorization: Basic c3VwZXJ1c2VyOnN1cGVycGFzcw==
 
 <> 2023-05-20T204519.200.json
 
@@ -8,8 +9,9 @@ GET http://localhost:8080/v1/api/transactions?date=2023-05-21
 GET http://localhost:8080/v1/api/transactions/c708df9e-7d6e-421c-932d-a75d4cfb1660
 
 ### Create Transaction
-POST http://localhost:8080/v1/api/transactions
+POST http://localhost:8082/v1/api/transactions
 Content-Type: application/json
+Authorization: Basic c3VwZXJ1c2VyOnN1cGVycGFzcw==
 
 {
   "value": 11111,

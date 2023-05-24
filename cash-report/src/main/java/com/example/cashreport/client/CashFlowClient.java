@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.time.LocalDate;
 import java.util.List;
 
-@FeignClient(value = "cash-flow", url = "${feing.url}")
+@FeignClient(value = "cash-flow", url = "http://${feing.url}:8082")
 public interface CashFlowClient {
 
     @RequestMapping(method = RequestMethod.GET, value = "/v1/api/transactions")

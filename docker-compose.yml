@@ -1,0 +1,53 @@
+version: '3.8'
+services:
+  cashflow-db:
+    env_file: .env
+    image: postgres:15
+    container_name: cashflow-db
+    environment:
+      POSTGRES_PASSWORD: ${CASH_FLOW_POSTGRES_PASSWORD}
+      POSTGRES_USER: ${CASH_FLOW_POSTGRES_USERNAME}
+    ports:
+      - "5435:5432"
+    volumes:
+      - ./init-db-docker.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./pgdata:/var/lib/postgresql/data
+
+
+  cashflow-service:
+    env_file: .env
+    build:
+      context: ./cash-flow
+      dockerfile: DOCKERFILE
+    container_name: cashflow-service
+    environment:
+      SPRING_DATASOURCE_HOST: cashflow-db
+      SPRING_DATASOURCE_USERNAME: ${CASH_FLOW_POSTGRES_USERNAME}
+      SPRING_DATASOURCE_PASSWORD: ${CASH_FLOW_POSTGRES_PASSWORD}
+      SPRING_SECURITY_USER_NAME: ${CASH_FLOW_HTTP_BASIC_AUTH_USER}
+      SPRING_SECURITY_USER_PASSWORD: ${CASH_FLOW_HTTP_BASIC_AUTH_PASS}
+    ports:
+      - "8082:8082"
+    depends_on:
+      - cashflow-db
+
+
+  cashreport-service:
+    env_file: .env
+    build:
+      context: ./cash-report
+      dockerfile: DOCKERFILE
+    container_name: cashreport-service
+    environment:
+      FEIGN_CLIENT_HOST: cashflow-db
+      SPRING_DATASOURCE_HOST: cashflow-db
+      SPRING_DATASOURCE_USERNAME: ${CASH_FLOW_POSTGRES_USERNAME}
+      SPRING_DATASOURCE_PASSWORD: ${CASH_FLOW_POSTGRES_PASSWORD}
+      SPRING_SECURITY_USER_NAME: ${CASH_FLOW_HTTP_BASIC_AUTH_USER}
+      SPRING_SECURITY_USER_PASSWORD: ${CASH_FLOW_HTTP_BASIC_AUTH_PASS}
+    ports:
+      - "8084:8084"
+    depends_on:
+      - cashflow-db
+      - cashflow-service
+
